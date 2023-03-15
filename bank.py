@@ -152,7 +152,7 @@ class Bank(QMainWindow):
             self.show_error()
             self.error.setText("Неправильные данные")
 
-
+print("hello")
 app = QApplication(sys.argv)
 bank = Bank()
 bank.show()
